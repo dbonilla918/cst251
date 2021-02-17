@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Lab 6 - More Complicated HTML</title>
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+	<div id="content"> <!--Content div-->
+		<h1>Subject: More Complicated HTML</h1>
+		<p>The point of this HTML lab was to create another html file, but this time, link it with a css file as well to style our pages.</p>
+	<img src="img/shoreline_logic.jpg" alt="Picture of myself at a concert in 2018">
+
+		<h2>Challenges</h2>
+		<p>There were no real challeges for me during this lab. Linking this webpage back to my home page wasnt too much different than </p>
+
+		<h2>Results</h2>
+		<p>The results of this lab are in the form of this webpage. Navigate your way through the page to see how all the elements were brought together. </p>
+	</div> <!--Content div-->
+	<div id="form"> <!--Form div-->
+		<h2>Fill out the following to look something up on Google:</h2>
+		<form action="http://google.com/search" method="GET" target="_new">
+		<label>Search: <input name="q" type="text"></label><br>
+		<label>Password: <input name="pw" type="password"></label><br>
+		<label>Agree: <input name="agree" type="checkbox" value="yes"></label><br>
+		<label>Flavor: <input name="flavor" type="radio" value="chocolate">Chocolate</label>
+		<label><input name="flavor" type="radio" value="caramel">Caramel</label>
+		<label><input name="gender" type="radio" value="Other">Other</label><br>
+		<label> Choose your favorite show:<select name="Show">
+		<option selected="" disabled=""> Select below </option>
+		<option value="Naruto"> Naruto </option>
+		<option value="Attack On Titan"> Attack On Titan </option>
+		<option value="Naruto"> Naruto </option>
+		</select>
+		</label>
+		<label> <input name="submit" type="submit" value="Submit"></label><br>
+	</div><!--Form div-->
+	<a href="../index.html">Return Home</a>
 
 </body>
 </html>
