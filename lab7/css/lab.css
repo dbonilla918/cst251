@@ -1,0 +1,30 @@
+body{
+     background-color: #EAF2F6;
+}
+
+h1, h2{
+     color: #3066DB;
+     text-decoration: underline;
+}
+
+p{
+     color: black;
+     font-size: 18px;
+}
+
+a:hover{
+     color: red;
+}
+
+div#content {
+    padding: 5px;
+    background-color: #dbf3ff;
+    border: solid 1px black;
+    height: 70vh;
+}
+
+img {
+     float: right;
+     width: 300px;
+     height: auto;
+}
