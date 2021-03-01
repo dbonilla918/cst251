@@ -4,31 +4,33 @@ body{
 
 h1, h2 {
     color: #70A8A2;
-    size: 150%;
 }
 
 p{
   color: #C5D4CA;
-  size: 150%;
 }
 
 #content{
-  padding: 5px;
+  padding: 8px;
   background-color: #0A1A27;
-  border: solid 1px black;
-  height: 70vh;
+  border: solid 10px #96BFB6;
+  height: 65vh;
 }
 
 img{
+    padding: 0 100px 0 0;
     float: right;
     width: 500px;
-    height: auto;
 }
 .imghover:hover {
-    width: 650px;
-    position:
+    transform: scale(1.1);
+    transition: transform .5s;
+}/* Used snippets of code above from w3schools.com */
+
+a:visited{
+    color: #0A1A27;
 }
 
 a:hover{
-     color: red;
+     color: #70A8A2;
 }
