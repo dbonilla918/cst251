@@ -1,0 +1,33 @@
+body{
+  background-color: #0A1A27;
+}
+
+h1, h2 {
+    color: #3a857d;
+}
+
+p{
+  color: #154d28;
+}
+
+#content{
+  padding: 8px;
+  background-color: #F0EAD2;
+  border: solid 10px #96BFB6;
+  height: 65vh;
+}
+
+img{
+    border: solid 10px #96BFB6;
+    float: right;
+    width: 500px;
+    height: auto;
+}
+
+a:visited{
+    color: #70A8A2;
+}
+
+a:hover{
+     color: #03ffe4;
+}
