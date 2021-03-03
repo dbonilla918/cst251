@@ -7,21 +7,23 @@ h1, h2 {
 }
 
 p{
-  color: #154d28;
+    color: #154d28;
 }
 
 #content{
-  padding: 8px;
-  background-color: #F0EAD2;
-  border: solid 10px #96BFB6;
-  height: 65vh;
+    margin: 15px;
+    padding: 20px;
+    background-color: #F0EAD2;
+    border: solid 10px #96BFB6;
+    height: 65vh;
 }
 
 #labs{
-  padding: 8px;
-  background-color: #F0EAD2;
-  border: solid 5px #96BFB6;
-  height: auto;
+    margin: 15px;
+    padding: 8px;
+    background-color: #F0EAD2;
+    border: solid 5px #96BFB6;
+    height: auto;
 }
 
 img{
