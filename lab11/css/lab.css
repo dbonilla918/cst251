@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;600&display=swap');
+/*
+    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    background-color: #0a1a27;
+    padding: 20px;
+    font-size: 120%;
+    margin: 30px;
+}
+
+#content {
+    padding: 30px;
+    background-color: #f0ead2;
+    border: outset 9px #96bfb6;
+    height: 70vh;
+    color: black;
+}
+
+aside#sidebar {
+    width: 30%;
+    padding: 15px;
+    margin-right: 30px;
+    float: left;
+    background-color: #96bfb6;
+    border: double 10px #f0ead2;
+}
+/* Used code from https://www.w3schools.com/TAGS/tag_aside.asp */
+
+
+div.static {
+  position: static;
+}
+
+h1, h2{
+    font-family: 'Playfair Display', serif;
+    color: #3a857d;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #154d28;
+}
+
+p.person{
+    font-family: 'Playfair Display', serif;
+    color: #3a857d;
+    font-size: 150%;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    color: #154d28;
+    font-size: 90%;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    color: #154d28;
+}
+
+a:visited{
+    color: #3a857d;
+}
+
+a:hover{
+    color: #03ffe4;
+}
