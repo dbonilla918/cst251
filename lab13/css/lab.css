@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/*
+    font-family: 'Montserrat', sans-serif;
+*/
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: -100;
+}
+
+.title-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#portrait-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#portrait-cont img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+#text-cont, #social-cont{
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+#text-cont{
+    left: 0;
+    margin-left: 150px;
+    margin-bottom: 75px;
+    letter-spacing: 20px;
+}
+
+#social-cont{
+    right: 0;
+    margin-right: 300px;
+    margin-bottom: 75px;
+    letter-spacing: 20px;
+}
+
+#social-cont img{
+    height: 30px;
+}
+
+body{
+    background-image: url("../img/mac_bg.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 110px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-size: 210px;
+}
+
+p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 15px;
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+a:link{
+    color: white;
+}
+
+a:visited {
+  color: lightgrey;
+}
