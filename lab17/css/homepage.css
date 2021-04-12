@@ -1,0 +1,23 @@
+.content {
+    border: 3px solid black;
+    background-color: lightgrey;
+    color: black;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact {
+    border: 3px solid black;
+    background-color: lightgrey;
+    color: black;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+aside .content{
+    text-align: center;
+
+}

@@ -1,0 +1,35 @@
+.content {
+    border: 3px solid black;
+    background-color: lightblue;
+    color: black;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact {
+    border: 3px solid black;
+    background-color: lightblue;
+    color: black;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+aside .content{
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: center
+}
+.item {
+  flex: 0 0 auto;
+  margin: 10px;
+}

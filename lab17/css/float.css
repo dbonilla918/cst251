@@ -1,0 +1,26 @@
+.content {
+    border: 3px solid black;
+    background-color: salmon;
+    color: black;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.contact {
+    border: 3px solid black;
+    background-color: salmon;
+    color: black;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    float: left;
+}
+
+aside .content{
+    text-align: center;
+    float: left;
+
+}
